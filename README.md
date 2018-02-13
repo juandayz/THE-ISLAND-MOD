@@ -71,3 +71,15 @@ set DB_NAME="YourDataBaseName"
 
 
 Done. Click on START_WITH_RESTART.bat to start your server with autorestart.
+```
+
+***INFISTAR***
+Open your AHconfig.sqf and into dayzActions =[....]; add:
+```
+"s_player_wrecks","s_player_cannibal","s_player_flipcrate","s_player_opencrate"
+```
+now into _cMenu =[...]; add:
+```
+ ,"#USER:PlayerActionsMenu","#USER:Server"
+```
+
